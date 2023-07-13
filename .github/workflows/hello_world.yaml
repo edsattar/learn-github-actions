@@ -9,8 +9,7 @@ on:
 
 job:
   hello:
-    runs-on:
-      ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: /actions/checkoutv2
       - name: hello world
